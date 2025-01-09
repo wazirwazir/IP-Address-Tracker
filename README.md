@@ -87,7 +87,7 @@ In futures updates, i plan to:
 
 ## Author
 
-- Website - [wazirwazir](https://www.your-site.com)
+- Website - [wazirwazir](https://wazirs-portfolio.vercel.app/#)
 - Frontend Mentor - [@wazirwazir](https://www.frontendmentor.io/profile/wazirwazir)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
