@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <title>IP Address Tracker</title>
+
+  </head>
+  <body>
+      <header>
+        <h2>IP Address Tracker</h2>
+        <div class="search-box">
+          <input type="text" placeholder="Search for any IP address or domain">
+          <button><img src="images/icon-arrow.svg" alt="arrow"></button>
+        </div>
+
+        <div class="response">
+          <div class=" dat address">
+            <p>IP ADDRESS</p>
+            <h3 id="ip-address">___</h3>
+          </div>
+          <div class="divider"></div>
+          <div class="dat location">
+            <p>LOCATION</p>
+            <h3 id="location">___</h3>
+          </div>
+          <div class="divider"></div>
+          <div class="dat timezone">
+            <p>TIMEZONE</p>
+            <h3>UT <span id="timezone">___</span></h3>
+          </div>
+          <div class="divider"></div>
+          <div class="dat isp" style="border: none;">
+            <p>ISP</p>
+            <h3 id="isp">___</h3>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div id="map"></div>
+
+      </main>    
+   
+  </body>
+  <script src="script.js"></script>
+</script>
+</html>
