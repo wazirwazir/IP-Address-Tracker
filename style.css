@@ -9,7 +9,7 @@ html, body {
 	height: 100%;
 }
 header {
-	background-image: url('./images/pattern-bg-desktop.png');
+	background-image: url(./images/pattern-bg-desktop.png);
 	justify-content: center;
 	text-align: center;
 	min-height: 4em;
@@ -113,7 +113,7 @@ main {
 }
 @media (max-width: 450px) {
 	header {
-			background-image: url('./images/pattern-bg-mobile.png');
+			background-image: url(./images/pattern-bg-mobile.png);
 			background-repeat: no-repeat;
 			background-size: cover;
 	}
