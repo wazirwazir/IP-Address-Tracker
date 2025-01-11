@@ -7,6 +7,19 @@ const isp = document.querySelector('#isp')
 const button = document.querySelector('button')
 
 
+
+const getUserIp = () => {
+    fetch('https://api.ipify.org?format=json')
+    .then(response => 
+        response.json()
+    )
+    .then(data => {
+        fetchInfo(data.ip)
+        input.value = data.ip
+        }
+    )
+}
+window.onload = getUserIp
 const comfirmInput = () => {
     if (input.value.length < 1) {
         alert('Input an IP Address')
